@@ -1,3 +1,12 @@
+%---------------------------------------------------------------------------------------------------
+% For Paper
+% "A Decomposition Approach to Multi-Agent Systems with Bernoulli Packet Loss"
+% by Christian Hespe, Hamideh Saadabadi, Adwait Datar, Herbert Werner and Yang Tang
+% Copyright (c) Institute of Control Systems, Hamburg University of Technology. All rights reserved.
+% Licensed under the GPLv3. See LICENSE in the project root for license information.
+% Author(s): Christian Hespe
+%---------------------------------------------------------------------------------------------------
+
 function [H2, Q, solver_stats] = performance_mean(sysD, sysC, L0, p)
 %PERFORMANCE_MEAN Calculates a lower bound on the H2-norm of the given
 %decomposable jump system with Bernoulli packet loss

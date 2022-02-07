@@ -1,5 +1,7 @@
 # A Decomposition Approach to Multi-Agent Systems with Bernoulli Packet Loss
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5997060.svg)](https://doi.org/10.5281/zenodo.5997060)
+
 ## General
 
 This repository contains an implementation of the algorithms described in the paper

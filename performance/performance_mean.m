@@ -85,6 +85,7 @@ for i = 2:N
     catch ME
         warning(ME.message)
         Q = [];
+        solver_stats.total = toc(timer);
         return
     end
 end
@@ -103,6 +104,7 @@ else
     Q  = value(Q);
     solver_stats.yalmip = sol.yalmiptime;
     solver_stats.solver = sol.solvertime;
-    solver_stats.total  = toc(timer);
 end
+
+solver_stats.total = toc(timer);
 end

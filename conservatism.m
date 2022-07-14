@@ -21,7 +21,7 @@ sysC  = ss(-kappa, 0, 0, 0);
 p = [0, 1e-6, 1e-5, 1e-4, 1e-3:1e-3:9e-3, 0.01:0.01:0.29, 0.3:0.025:1];
 
 % Calculate the norms for two examples, large and small networks
-h = [4, 50];
+h = [3, 50];
 N = h.*(h+1)/2;
 
 %%
@@ -45,7 +45,7 @@ parfor i = 1:length(h)*length(p)
     % large network.
     [~, j] = ind2sub(sz, i);
     if j == 1
-        norm_enum(i) = performance_enumerated(sysD, sysC, L, P(i), true);
+        norm_enum(i) = performance_enumerated(sysD, sysC, L, P(i));
     end
 end
 toc

@@ -21,7 +21,7 @@ iter = 10;
 
 % Iterate backwards to tackle the hard problems first. This improves the
 % utilization of the CPU cores.
-n = 20:-1:2;
+n = 12:-1:2;
 
 %%
 [N, ~] = meshgrid(n, 1:iter);
@@ -40,7 +40,7 @@ parfor i = 1:length(n)*iter
     L = full(laplace_matrix(circular_graph(N(i), 1, false)));
     
     [norm_mean(i),  ~, stats_mean(i) ] = performance_mean(sysD, sysC, L, p);
-    [norm_enum(i),  ~, stats_enum(i) ] = performance_enumerated(sysD, sysC, L, p, true);
+    [norm_enum(i),  ~, stats_enum(i) ] = performance_enumerated(sysD, sysC, L, p);
     [norm_decom(i), ~, stats_decom(i)] = performance_decomposed(sysD, sysC, L, p);
 end
 toc

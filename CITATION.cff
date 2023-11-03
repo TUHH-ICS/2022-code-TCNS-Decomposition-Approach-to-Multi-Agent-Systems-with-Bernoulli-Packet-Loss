@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+title: A Decomposition Approach to Multi-Agent Systems with Bernoulli Packet Loss
+message: If you use this software, please cite it using the metadata from this file.
+type: software
+authors:
+  - given-names: Christian
+    family-names: Hespe
+    affiliation: Hamburg University of Technology, Institute of Control Systems
+    orcid: 'https://orcid.org/0000-0001-5772-9044'
+  - given-names: Hamideh
+    family-names: Saadabadi
+    affiliation: Hamburg University of Technology, Institute of Control Systems
+    orcid: 'https://orcid.org/0000-0002-1186-888X'
+  - given-names: Adwait
+    family-names: Datar
+    affiliation: Hamburg University of Technology, Institute of Control Systems
+    orcid: 'https://orcid.org/0000-0002-4085-9675'
+  - given-names: Herbert
+    family-names: Werner
+    affiliation: Hamburg University of Technology, Institute of Control Systems
+    orcid: 'https://orcid.org/0000-0003-3456-5539'
+  - given-names: Yang
+    family-names: Tang
+    affiliation: East China University of Science and Technology
+    orcid: 'https://orcid.org/0000-0002-2750-8029'
+identifiers:
+  - type: doi
+    value: 10.1109/TCNS.2023.3275917
+    description: DOI of the accompanying paper
+  - type: doi
+    value: 10.5281/zenodo.5997060
+    description: DOI of the Zenodo archive
+repository-code: https://github.com/TUHH-ICS/2022-code-TCNS-Decomposition-Approach-to-Multi-Agent-Systems-with-Bernoulli-Packet-Loss
+keywords:
+  - multiagent systems
+  - packet loss
+  - linear matrix inequalities
+license: GPL-3.0

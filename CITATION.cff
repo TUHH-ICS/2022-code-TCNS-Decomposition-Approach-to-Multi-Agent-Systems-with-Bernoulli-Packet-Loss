@@ -31,6 +31,7 @@ identifiers:
     value: 10.5281/zenodo.5997060
     description: DOI of the Zenodo archive
 repository-code: https://github.com/TUHH-ICS/2022-code-TCNS-Decomposition-Approach-to-Multi-Agent-Systems-with-Bernoulli-Packet-Loss
+repository: https://arxiv.org/abs/2209.03024
 keywords:
   - multiagent systems
   - packet loss
